@@ -7,6 +7,7 @@ function App() {
     document.addEventListener('keydown', (e) => {
       playAudio(e.key.toUpperCase());
     });
+    console.log('useEffect');
   }, []);
 
   const drumPads = [
@@ -59,9 +60,12 @@ function App() {
 
   const playAudio = (id) => {
     const audio = document.getElementById(id);
-    audio.play();
     const sound = drumPads.find((e) => e.id === id);
-    setPlayed(sound.name);
+    if (audio && sound) {
+      audio.play();
+      setPlayed(sound.name);
+      console.log(audio);
+    }
   };
 
   return (
