@@ -3,13 +3,36 @@
   text-align: center;
 }
 
+body {
+  background-color: black;
+}
+
 #drum-machine {
+  position: relative;
   display: flex;
   justify-content: center;
-  margin-top: 40vh;
+  margin-top: 20vh;
+}
+
+#display {
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: azure;
 }
 
 #drum-pads {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.drum-pad {
+  background-color: rgb(157, 157, 157);
+  color: azure;
+  width: 7rem;
+  height: 7rem;
+  max-width: 20vw;
+  max-height: 20vh;
 }
