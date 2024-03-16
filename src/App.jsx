@@ -12,47 +12,47 @@ function App() {
   const drumPads = [
     {
       id: 'Q',
-      src: 'src/assets/Heater-1.mp3',
+      src: 'Heater-1.mp3',
       name: 'Heater 1',
     },
     {
       id: 'W',
-      src: 'src/assets/Heater-2.mp3',
+      src: 'Heater-2.mp3',
       name: 'Heater 2',
     },
     {
       id: 'E',
-      src: 'src/assets/Heater-3.mp3',
+      src: 'Heater-3.mp3',
       name: 'Heater 3',
     },
     {
       id: 'A',
-      src: 'src/assets/Heater-4_1.mp3',
+      src: 'Heater-4_1.mp3',
       name: 'Heater 4',
     },
     {
       id: 'S',
-      src: 'src/assets/Heater-6.mp3',
+      src: 'Heater-6.mp3',
       name: 'Clap',
     },
     {
       id: 'D',
-      src: 'src/assets/Dsc_Oh.mp3',
+      src: 'Dsc_Oh.mp3',
       name: 'Open HH',
     },
     {
       id: 'Z',
-      src: 'src/assets/Kick_n_Hat.mp3',
+      src: 'Kick_n_Hat.mp3',
       name: "Kick n' Hat",
     },
     {
       id: 'X',
-      src: 'src/assets/RP4_KICK_1.mp3',
+      src: 'RP4_KICK_1.mp3',
       name: 'Kick',
     },
     {
       id: 'C',
-      src: 'src/assets/Cev_H2.mp3',
+      src: 'Cev_H2.mp3',
       name: 'Closed HH',
     },
   ];
